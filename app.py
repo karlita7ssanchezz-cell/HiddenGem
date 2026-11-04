@@ -61,6 +61,18 @@ PAGINA = r"""
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="manifest" href="/static/manifest.json">
+<meta name="theme-color" content="#c8b5e1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="HiddenGem">
+
+<script>
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/static/sw.js");
+    });
+}
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HiddenGem | Your talent deserves to be discovered</title>
