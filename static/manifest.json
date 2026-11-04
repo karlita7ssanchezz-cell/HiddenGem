@@ -1,0 +1,11 @@
+{
+  "name": "HiddenGem",
+  "short_name": "HiddenGem",
+  "description": "Your talent deserves to be discovered.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eee7f7",
+  "theme_color": "#c8b5e1",
+  "icons": []
+}
