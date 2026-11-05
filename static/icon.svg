@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#eee7f7"/>
+  <path d="M256 65 L420 205 L256 445 L92 205 Z"
+        fill="#c8b5e1" stroke="#80669f" stroke-width="18"
+        stroke-linejoin="round"/>
+  <path d="M92 205 H420 L256 445 Z" fill="#b69bd8"/>
+  <path d="M256 65 L205 205 L256 445 L307 205 Z" fill="#f9f5ff"/>
+  <path d="M92 205 L205 205 L256 65 Z" fill="#dfd1f0"/>
+  <path d="M420 205 L307 205 L256 65 Z" fill="#a98bcf"/>
+</svg>
